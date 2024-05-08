@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeebsPedia</string>
+    <string name="home_title">Home</string>
+    <string name="search_anime">Search</string>
+    <string name="profile_title">Profile</string>
+
+    <string name="search_text">Tulis anime yang ingin di cari</string>
+</resources>
