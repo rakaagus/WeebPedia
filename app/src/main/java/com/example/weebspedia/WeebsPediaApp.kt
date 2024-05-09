@@ -27,8 +27,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import androidx.navigation.navigation
-import com.example.weebspedia.model.AnimeData
 import com.example.weebspedia.ui.navigation.NavigationItem
 import com.example.weebspedia.ui.navigation.Screen
 import com.example.weebspedia.ui.screen.categoryScreen.GenreScreen
@@ -36,7 +34,6 @@ import com.example.weebspedia.ui.screen.detail.DetailScreen
 import com.example.weebspedia.ui.screen.home.HomeScreen
 import com.example.weebspedia.ui.screen.profile.ProfileScreen
 import com.example.weebspedia.ui.screen.search.SearchScreen
-import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -49,7 +46,7 @@ fun WeebsPediaApp(
 
     val title = when(currentRoute) {
         "home_screen" -> stringResource(id = R.string.home_title)
-        "favorite_screen" -> stringResource(id = R.string.search_anime)
+        "search_screen" -> stringResource(id = R.string.search_anime)
         "profile_screen" -> stringResource(id = R.string.profile_title)
         else -> ""
     }

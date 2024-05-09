@@ -20,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.weebspedia.ui.theme.colorInContainer
 
 @Composable
 fun TextInfoProfile(
@@ -56,7 +57,7 @@ fun TextInfoProfile(
 @Composable
 fun SectionText(title: String, content: @Composable () -> Unit, modifier: Modifier = Modifier) {
     Column(modifier = modifier.padding(top = 20.dp)) {
-        Text(text = title, modifier = Modifier.padding(horizontal = 12.dp))
+        Text(text = title, style = MaterialTheme.typography.labelLarge, color = Color.White, modifier = Modifier.padding(horizontal = 12.dp))
         content()
     }
 }
@@ -72,14 +73,9 @@ fun GenreTextButton(
     FilterChip(
         onClick = { clickToGenreScreen(genreId) },
         label = {
-            Text(text = name)
+            Text(text = name, style = MaterialTheme.typography.labelMedium, color = colorInContainer)
         },
-        shape = RoundedCornerShape(
-            topStart = 8.dp,
-            topEnd = 8.dp,
-            bottomEnd = 8.dp,
-            bottomStart = 4.dp
-        ),
+        shape = MaterialTheme.shapes.small,
         selected = true,
         modifier = modifier.height(35.dp)
     )

@@ -133,12 +133,12 @@ fun DetailContent(
                 .padding(top = 10.dp, start = 12.dp, bottom = 10.dp)
         ) {
             RatingComponent(rating = rating.toString())
-            Text(text = date, fontSize = 12.sp)
-            Text(text = "Eps $eps", fontSize = 12.sp)
+            Text(text = date, style = MaterialTheme.typography.labelSmall, color = Color.White)
+            Text(text = "Eps $eps", style = MaterialTheme.typography.labelSmall, color = Color.White)
             if (statusEnd){
-                Text(text = "Sudah Tamat", fontSize = 12.sp)
+                Text(text = "Sudah Tamat", style = MaterialTheme.typography.labelSmall, color = Color.White)
             }else {
-                Text(text = "Ongoing", fontSize = 12.sp)
+                Text(text = "Ongoing", style = MaterialTheme.typography.labelSmall, color = Color.White)
             }
         }
         viewModel.genreInAnimeUiState.collectAsState(initial = UiState.Loading).value.let { state ->

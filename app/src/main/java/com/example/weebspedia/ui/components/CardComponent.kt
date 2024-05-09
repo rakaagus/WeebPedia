@@ -18,6 +18,7 @@ import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -66,16 +67,13 @@ fun ColumnAnimeCard(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(150.dp)
-                .clip(RoundedCornerShape(10.dp))
+                .clip(MaterialTheme.shapes.medium)
         )
         Text(
             text = animeData.title,
-            style = TextStyle(
-                fontWeight = FontWeight.Normal,
-                fontSize = 12.sp,
-                color = Color.White
-            ),
+            style = MaterialTheme.typography.labelSmall,
             modifier = Modifier.padding(top = 8.dp),
+            color = Color.White,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
         )
@@ -113,22 +111,16 @@ fun AnimeArticleCard(
         Spacer(modifier = Modifier.height(10.dp))
         Text(
             text = article.title,
-            style = TextStyle(
-                fontWeight = FontWeight.Bold,
-                fontSize = 18.sp,
-                color = Color.Black
-            ),
+            style = MaterialTheme.typography.displayMedium,
+            color = Color.White,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis,
         )
 
         Text(
             text = article.description,
-            style = TextStyle(
-                fontSize = 12.sp,
-                color = Color.Black,
-                fontWeight = FontWeight.Light
-            ),
+            style = MaterialTheme.typography.labelSmall,
+            color = Color.White,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis,
         )
