@@ -11,13 +11,11 @@ import kotlinx.coroutines.flow.flowOf
 class WeebsPediaRepository {
 
     private val topAnimeById: List<Long> = listOf(
-        2,3,4,5,7,8
+        2, 3, 4, 5, 7, 8, 15, 14, 12, 10
     )
     private val animeTopSelection = mutableListOf<AnimeData>()
     private val articles = mutableListOf<Article>()
     private val genres = mutableListOf<Genre>()
-    private val saveAnimeData = mutableListOf<Long>()
-    private val saveAnimeList = mutableListOf<AnimeData>()
     private val animeByGenreId = mutableListOf<AnimeData>()
     private val allDataAnime = mutableListOf<AnimeData>()
     private val genreInAnime = mutableListOf<Genre>()

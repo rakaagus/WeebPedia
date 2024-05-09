@@ -168,6 +168,93 @@ object DataSource{
                 3, 7
             )
         ),
+        AnimeData(
+            id = 11,
+            title = "Hunter x Hunter (2011)",
+            description = "Para Hunter mengabdikan diri mereka untuk menyelesaikan tugas-tugas berbahaya, mulai dari melintasi wilayah yang belum dipetakan di dunia hingga menemukan item dan monster langka. Sebelum menjadi Hunter, seseorang harus lulus Ujian Hunter-proses seleksi berisiko tinggi di mana sebagian besar pelamar berakhir dengan cacat atau lebih buruk lagi, meninggal dunia.\n" +
+                    "\n" +
+                    "Peserta ambisius yang menantang ujian yang terkenal kejam ini memiliki alasan tersendiri. Yang mendorong Gon Freecss yang berusia 12 tahun adalah menemukan Ging, ayahnya dan juga seorang Hunter. Percaya bahwa ia akan bertemu dengan ayahnya dengan menjadi seorang Hunter, Gon mengambil langkah pertama untuk berjalan di jalur yang sama.\n" +
+                    "\n" +
+                    "Selama Ujian Hunter, Gon berteman dengan mahasiswa kedokteran Leorio Paladiknight, Kurapika yang pendendam, dan mantan pembunuh Killua Zoldyck. Meskipun motif mereka sangat berbeda satu sama lain, mereka bersatu demi tujuan yang sama dan mulai menjelajah ke dunia yang berbahaya.\n" +
+                    "\n" +
+                    "Translated with DeepL.com (free version)",
+            imageUrl = "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+            rating = 9.04,
+            date = "Oktober 2011",
+            statusEnd = true,
+            eps = 148,
+            genreId = listOf(
+                3, 4, 7
+            )
+        ),
+        AnimeData(
+            id = 12,
+            title = "One Punch Man",
+            description = "Saitama yang tampak tidak mengesankan memiliki hobi yang cukup unik: menjadi pahlawan. Demi mengejar impian masa kecilnya, Saitama berlatih tanpa henti selama tiga tahun, dan kehilangan semua rambutnya dalam prosesnya. Sekarang, Saitama sangat kuat, dia bisa mengalahkan musuh mana pun hanya dengan satu pukulan. Namun, karena tidak ada yang mampu menandingi kekuatannya, Saitama mengalami masalah yang tak terduga-dia tidak lagi dapat menikmati sensasi bertarung dan menjadi sangat bosan.\n" +
+                    "\n" +
+                    "Suatu hari, Saitama menarik perhatian cyborg berusia 19 tahun, Genos, yang menyaksikan kekuatannya dan ingin menjadi murid Saitama. Genos mengusulkan agar keduanya bergabung dengan Asosiasi Pahlawan untuk menjadi pahlawan bersertifikat yang akan diakui atas kontribusi positif mereka kepada masyarakat. Saitama, yang terkejut karena tidak ada yang tahu siapa dirinya, dengan cepat menyetujuinya. Bertemu dengan sekutu baru dan menghadapi musuh baru, Saitama memulai perjalanan baru sebagai anggota Asosiasi Pahlawan untuk merasakan keseruan pertempuran yang pernah ia rasakan.\n" +
+                    "\n" +
+                    "Translated with DeepL.com (free version)",
+            imageUrl = "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+            rating = 8.50,
+            date = "Oktober 2015",
+            statusEnd = true,
+            eps = 12,
+            genreId = listOf(
+                7, 8
+            )
+        ),
+        AnimeData(
+            id = 13,
+            title = "Steins;Gate",
+            description = "Ilmuwan eksentrik Rintarou Okabe memiliki rasa haus yang tidak pernah berhenti akan eksplorasi ilmiah. Bersama dengan temannya yang cerewet namun bermaksud baik, Mayuri Shiina, dan teman sekamarnya, Itaru Hashida, Okabe mendirikan Laboratorium Gadget Masa Depan dengan harapan dapat menciptakan inovasi teknologi yang membingungkan jiwa manusia. Terlepas dari klaim kehebatannya, satu-satunya “gadget” penting yang telah diciptakan oleh ketiganya adalah microwave yang memiliki kekuatan membingungkan untuk mengubah pisang menjadi goo hijau.\n" +
+                    "\n" +
+                    "Namun, ketika Okabe menghadiri sebuah konferensi tentang perjalanan waktu, dia mengalami serangkaian kejadian aneh yang membuatnya percaya bahwa ada lebih banyak hal yang bisa dilakukan oleh gadget “Telepon Microwave” daripada yang terlihat. Tampaknya dapat mengirim pesan teks ke masa lalu menggunakan microwave, Okabe mencoba-coba lebih jauh dengan “mesin waktu,” menarik kemarahan dan perhatian organisasi misterius SERN.\n" +
+                    "\n" +
+                    "Karena penemuan baru ini, Okabe dan teman-temannya mendapati diri mereka dalam bahaya yang selalu ada. Saat dia bekerja untuk mengurangi kerusakan yang disebabkan oleh penemuannya pada garis waktu, Okabe bertempur tidak hanya untuk menyelamatkan orang-orang yang dicintainya tetapi juga untuk mempertahankan kewarasannya yang menurun.\n" +
+                    "\n" +
+                    "Translated with DeepL.com (free version)",
+            imageUrl = "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
+            rating = 9.07,
+            date = "April 2011",
+            statusEnd = true,
+            eps = 24,
+            genreId = listOf(
+                1, 6, 11
+            )
+        ),
+        AnimeData(
+            id = 14,
+            title = "Gintama°",
+            description = "Gintoki, Shinpachi, dan Kagura kembali sebagai anggota tim Yorozuya yang suka bersenang-senang tetapi bangkrut! Hidup di dunia lain Edo, di mana pedang dilarang dan penguasa asing telah menaklukkan Jepang, mereka mencoba untuk bertahan hidup dengan melakukan pekerjaan apa pun yang bisa mereka lakukan. Namun, Shinpachi dan Kagura masih belum dibayar... Apakah Gin-chan benar-benar menghabiskan semua uangnya untuk bermain pachinko?\n" +
+                    "\n" +
+                    "Sementara itu, ketika Gintoki dalam keadaan mabuk berjalan sempoyongan pulang ke rumah pada suatu malam, sebuah pesawat luar angkasa asing jatuh di dekatnya. Seorang anggota kru yang terluka parah muncul dari kapal dan memberi Gintoki sebuah alat aneh berbentuk jam, memperingatkannya bahwa alat itu sangat kuat dan harus dijaga. Mengira itu adalah jam wekernya, Gintoki kemudian menghancurkan alat tersebut keesokan paginya dan tiba-tiba menemukan bahwa dunia di luar apartemennya terhenti. Dengan Kagura dan Shinpachi di sisinya, dia berangkat untuk memperbaiki perangkat tersebut; meskipun, seperti biasa, tidak ada yang sesederhana itu bagi tim Yorozuya.",
+            imageUrl = "https://cdn.myanimelist.net/images/anime/3/72078.jpg",
+            rating = 9.06,
+            date = "April 2015",
+            statusEnd = true,
+            eps = 51,
+            genreId = listOf(
+                7, 8, 11
+            )
+        ),
+        AnimeData(
+            id = 15,
+            title = "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+            description = "Anggota elit dari dewan mahasiswa Akademi Shuchiin melanjutkan kejenakaan kompetitif mereka sehari-hari. Ketua OSIS Miyuki Shirogane setiap hari berseteru dengan wakil ketua Kaguya Shinomiya, masing-masing berjuang mati-matian untuk mengelabui satu sama lain agar mau mengakui cinta mereka. Kaguya berjuang dalam batas-batas ketat keluarganya yang kaya dan tegang, memberontak terhadap sikapnya yang dingin dan kaku saat dia menghangatkan diri dengan Shirogane dan teman-temannya yang lain.\n" +
+                    "\n" +
+                    "Sementara itu, bendahara dewan Yuu Ishigami menderita di bawah beban naksirnya yang putus asa pada Tsubame Koyasu, seorang siswa kelas atas yang populer yang membantu menanamkan kepercayaan diri yang baru dalam dirinya. Miko Iino, anggota OSIS terbaru, semakin dekat dengan Ishigami yang melanggar peraturan sambil berusaha untuk mengatasi kode moralnya sendiri yang otoriter.\n" +
+                    "\n" +
+                    "Ketika cinta semakin berkembang di Akademi Shuchiin, para anggota OSIS menyeret teman-teman luar mereka ke dalam konflik yang semakin lucu.",
+            imageUrl = "https://cdn.myanimelist.net/images/anime/1160/122627.jpg",
+            rating = 9.01,
+            date = "April 2022",
+            statusEnd = true,
+            eps = 13,
+            genreId = listOf(
+                8, 10
+            )
+        ),
     )
 
     fun genreList(): List<Genre> = listOf(
@@ -210,6 +297,10 @@ object DataSource{
         Genre(
             10,
             "Romance"
+        ),
+        Genre(
+            11,
+            "Sci-fi"
         ),
     )
 
