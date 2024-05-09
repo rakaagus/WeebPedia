@@ -38,18 +38,13 @@ fun TextInfoProfile(
             text = title + ": ",
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
-            style = MaterialTheme.typography.titleMedium.copy(
-                fontWeight = FontWeight.Bold,
-                fontSize = 20.sp
-            )
+            style = MaterialTheme.typography.labelLarge,
+            color = Color.White
         )
         Text(
             text = value,
-            style = MaterialTheme.typography.titleMedium.copy(
-                fontSize = 20.sp,
-                fontWeight = FontWeight.Bold
-            ),
-            color = Color.Black
+            style = MaterialTheme.typography.labelLarge,
+            color = Color.White
         )
     }
 }
